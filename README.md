@@ -1,12 +1,15 @@
 ✱ Project Overview
 
-  The Interactive Data Manager is a single-page web application developed using HTML, CSS, and JavaScript.
+The Interactive Data Manager is a single-page web application developed using HTML, CSS, and JavaScript.
 It allows users to manage textual entries such as tasks, notes, reminders, or study plans.
 
 The application provides features to add, view, edit, delete, search, filter, and update the status of entries dynamically without reloading the page.
 
 All data is stored using browser localStorage, so the information remains available even after refreshing the browser.
 
+✱ Check on Vercel
+
+https://datamanger.vercel.app/
 
 ✱ Features
 
@@ -29,7 +32,6 @@ All data is stored using browser localStorage, so the information remains availa
 ● Responsive mobile navigation
 
 ● Single Page Application behavior (no page reload)
-
 
 ✱ JavaScript Methods Used
 
@@ -71,7 +73,6 @@ addEventListener() – handle user events
 
 classList.toggle() – toggle UI classes
 
-
 ✱ JavaScript Concepts Applied (Week 2)
 
 The following Week-2 JavaScript concepts are implemented in this project:
@@ -92,12 +93,12 @@ Non-primitive types: objects and arrays
 
 Each entry stored as an object
 {
-  id,
-  title,
-  description,
-  message,
-  status,
-  date
+id,
+title,
+description,
+message,
+status,
+date
 }
 
 🔹 Arrays
